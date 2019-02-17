@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary_light"
+    tools:context=".CalcularActivity">
+
+    <TextView
+        android:id="@+id/textViewResultadoCalculo"
+        android:layout_width="196dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="335dp"
+        android:text="@string/textViewResultado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCantidadCarga"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewResultadoCalculo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCalculo" />
+
+    <TextView
+        android:id="@+id/textViewCentral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/editTextCentral"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextCentral"
+        app:layout_constraintEnd_toStartOf="@+id/editTextCentral"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewForge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="144dp"
+        android:text="@string/editTextForge"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextForge"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@color/colorAccent"
+        android:onClick="calcular"
+        android:text="@string/botonCalcular"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCalculo" />
+
+    <EditText
+        android:id="@+id/editTextCentral"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editTextForge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCentral" />
+
+    <EditText
+        android:id="@+id/editTextForge"
+        android:layout_width="98dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="131dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewForge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewForge" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Trucking</string>
+    <string name="botonCalcular">Calcular</string>
+    <string name="textViewResultado">Ingresar valores</string>
+    <string name="editTextCentral">Central</string>
+    <string name="editTextForge">Forge</string>
+    <string name="botonGuardar">Guardar</string>
+    <string name="botonSignoMas">+</string>
+    <string name="textViewHistorial">Historial</string>
+    <string name="botonConteo">Conteo</string>
+    <string name="imageView">imagen de viembenida</string>
+    <string name="botonPantallaBiembenida">Ir a pantalla de biembenida</string>
+
+</resources>

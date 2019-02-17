@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trucking</string>
+    <string name="botonCalcular">Calculate</string>
+    <string name="textViewResultado">Insert values</string>
+    <string name="editTextCentral">Central</string>
+    <string name="editTextForge">Forge</string>
+    <string name="botonGuardar">Save</string>
+    <string name="botonSignoMas">+</string>
+    <string name="textViewHistorial">History</string>
+    <string name="botonConteo">Counting</string>
+    <string name="imageView">image of welcome</string>
+    <string name="botonPantallaBiembenida">Go to welcome screen</string>
+
+
+
+</resources>
