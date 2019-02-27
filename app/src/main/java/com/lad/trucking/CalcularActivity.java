@@ -46,6 +46,7 @@ public class CalcularActivity extends AppCompatActivity {
 
         TextView textoCantidadCarga = findViewById(R.id.textViewCantidadCarga);
 
+        textoCantidadCarga.setText("Pago :" + resultado);
         textoCantidadCarga.setText("Total cargas :"+ totalCargas);
 
     }
