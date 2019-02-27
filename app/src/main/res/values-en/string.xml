@@ -9,9 +9,10 @@
     <string name="botonSignoMas">+</string>
     <string name="textViewHistorial">History</string>
     <string name="botonConteo">Counting</string>
-    <string name="imageView">image of welcome</string>
+    <string name="imageView">Image of welcome</string>
     <string name="botonPantallaBiembenida">Go to welcome screen</string>
-
-
+    <string name="pago">Pays</string>
+    <string name="total">Total</string>
+    <string name="cargas">Loads</string>
 
 </resources>

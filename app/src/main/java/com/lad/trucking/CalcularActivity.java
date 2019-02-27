@@ -23,8 +23,8 @@ public class CalcularActivity extends AppCompatActivity {
 
     public void obtenerValores(){
 
-        EditText c =(EditText)findViewById(R.id.editTextCentral);
-        EditText f =(EditText)findViewById(R.id.editTextForge);
+        EditText c = findViewById(R.id.editTextCentral);
+        EditText f = findViewById(R.id.editTextForge);
 
         central=Integer.parseInt(c.getText().toString());
         forge=Integer.parseInt(f.getText().toString());
@@ -33,19 +33,20 @@ public class CalcularActivity extends AppCompatActivity {
         //---llamada al metodo--
         obtenerValores();
         //-- calculos--
-        resultado= (central*75)+(forge*65);
+        resultado= (central*70)+(forge*60);
 
         totalCargas= central+forge;
         //---llamada al metodo---
         mostrarResultado();
     }
     public void mostrarResultado(){
-        TextView texto  =(TextView)findViewById(R.id.textViewResultadoCalculo);
+        TextView texto  = findViewById(R.id.textViewResultadoCalculo);
 
-        texto.setText("Pago $:" + resultado);
 
-        TextView textoCantidadCarga =(TextView)findViewById(R.id.textViewCantidadCarga);
-        textoCantidadCarga.setText("Total cargas: "+ totalCargas);
+
+        TextView textoCantidadCarga = findViewById(R.id.textViewCantidadCarga);
+
+        textoCantidadCarga.setText("Total cargas :"+ totalCargas);
 
     }
 

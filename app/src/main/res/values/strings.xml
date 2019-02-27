@@ -8,7 +8,10 @@
     <string name="botonSignoMas">+</string>
     <string name="textViewHistorial">Historial</string>
     <string name="botonConteo">Conteo</string>
-    <string name="imageView">imagen de viembenida</string>
+    <string name="imageView">Imagen de viembenida</string>
     <string name="botonPantallaBiembenida">Ir a pantalla de biembenida</string>
+    <string name="pago">Pago</string>
+    <string name="total">Total</string>
+    <string name="cargas">Cargas</string>
 
 </resources>
