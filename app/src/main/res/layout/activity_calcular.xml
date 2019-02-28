@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary_light"
-    tools:context=".CalcularActivity">
+    tools:context=".view.CalcularActivity">
 
     <TextView
         android:id="@+id/textViewResultadoCalculo"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:background="@color/colorAccent"
-        android:onClick="calcular"
+        android:onClick="calcularViajes"
         android:text="@string/botonCalcular"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

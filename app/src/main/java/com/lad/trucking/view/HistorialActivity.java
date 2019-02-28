@@ -1,7 +1,9 @@
-package com.lad.trucking;
+package com.lad.trucking.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.lad.trucking.R;
 
 public class HistorialActivity extends AppCompatActivity {
 

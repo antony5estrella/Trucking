@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         android:fullBackupContent="false"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +20,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HistorialActivity" />
-        <activity android:name=".DiarioActivity" />
-        <activity android:name=".CalcularActivity">
+        <activity android:name=".view.HistorialActivity" />
+        <activity android:name=".view.DiarioActivity" />
+        <activity android:name=".view.CalcularActivity">
 
         </activity>
     </application>
