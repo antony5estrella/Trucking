@@ -21,7 +21,7 @@
         </activity>
 
         <activity android:name=".view.HistorialActivity" />
-        <activity android:name=".view.DiarioActivity" />
+        <activity android:name=".conteo.view.DiarioActivity" />
         <activity android:name=".view.CalcularActivity">
 
         </activity>

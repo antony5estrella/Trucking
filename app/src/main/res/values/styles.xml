@@ -9,4 +9,20 @@
   <item name="colorAccent">@color/colorAccent</item>
 </style>
 
+  <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+    <item name="colorButtonNormal">@color/colorAccent</item>
+    <item name="colorControlHighlight">@color/colorAccentDark</item>>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+
+    <item name="android:textColorHint">@color/colorWhite</item>
+    <item name="android:textSize">@dimen/editTextSize</item>
+    <item name="android:textColorPrimary">@color/colorWhite</item>
+    <item name="android:colorAccent">@color/colorWhite</item>
+    <item name="android:colorControlNormal">@color/colorWhite</item>
+    <item name="android:colorControlActivated">@color/colorWhite</item>
+  </style>
+
 </resources>

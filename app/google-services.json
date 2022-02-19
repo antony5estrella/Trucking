@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "749878474034",
+    "firebase_url": "https://latronic.firebaseio.com",
+    "project_id": "latronic",
+    "storage_bucket": "latronic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749878474034:android:cba6ce71deda3878",
+        "android_client_info": {
+          "package_name": "com.lad.trucking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749878474034-chck59r80e27agpnbu9pfd9p8arldsrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lad.trucking",
+            "certificate_hash": "8bdc8cb489fb249a25d3a9e4189dbfb762e440e6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1fcUfTaDRhymvxxmvenSda6R8t0SAkPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749878474034-u02ims9l6oab03h82sqpg3gae8sklnu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,8 +11,10 @@
     <string name="botonConteo">Counting</string>
     <string name="imageView">Image of welcome</string>
     <string name="botonPantallaBiembenida">Go to welcome screen</string>
+    <string name="date">Date</string>
+    <string name="origin">Origin</string>
     <string name="pago">Pays</string>
     <string name="total">Total</string>
     <string name="cargas">Loads</string>
-
+    <string name="error">error happen</string>
 </resources>

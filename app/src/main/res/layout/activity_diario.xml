@@ -2,8 +2,66 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progressBarConteo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.DiarioActivity">
+    android:background="@color/colorFondoDark"
+    tools:context=".conteo.view.DiarioActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/EditTextWhite"
+        />
+
+    <EditText
+        android:id="@+id/editTextOrigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="329dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/origin"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextFecha"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        android:theme="@style/EditTextWhite"
+        />
+
+    <Button
+        android:id="@+id/buttonGuardarViaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/botonGuardar"
+        android:theme="@style/RaisedButtonDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOrigen" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="83dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextOrigen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

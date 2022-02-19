@@ -10,7 +10,7 @@ import com.lad.trucking.R;
 import com.lad.trucking.presenter.MainActivityPresenter;
 import com.lad.trucking.presenter.MainActivityPresenterImpl;
 
-public class CalcularActivity extends AppCompatActivity implements MainActivityView{
+public class CalcularActivity extends AppCompatActivity implements MainActivityView {
 
     private MainActivityPresenter presenter;
     public int central,forge,resultado,totalCargas;

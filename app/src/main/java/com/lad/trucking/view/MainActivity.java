@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lad.trucking.R;
+import com.lad.trucking.conteo.view.DiarioActivity;
 
 public class MainActivity extends AppCompatActivity {
 
